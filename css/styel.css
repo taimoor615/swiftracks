@@ -75,7 +75,53 @@ a, a:hover, a:focus {
   -webkit-transition: all ease-in-out .3s;
   -o-transition: all ease-in-out .3s;
 }
-
+/*==============================
+        Cursor Behaviour
+================================*/
+.cursor-wrapper{
+    position: relative;
+    top: 100px;
+    width: 700px;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  
+  .cursor{
+    top: 0px;
+    left: 0px;
+    position: fixed;
+  }
+  
+  .dot{
+    top: -20px;
+    left: -20px;
+    position: fixed;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #D9412E;
+    z-index: 9999;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+    will-change: transform;
+    transform: scale(1);
+    transition: 0.2s all;
+  }
+  
+  .drag, .scroll, .hover{
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    font-size: 30px;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+.drag-pointer{
+    transition: 0.2s all;
+    transform: scale(3);
+    border-radius: 0%;
+    background-color: #333898;
+  }
 /* custom classes */
 
 .btn-filled {
