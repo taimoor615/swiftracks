@@ -29,3 +29,92 @@
     </section>
 </body>
 </html>
+
+
+<div class="form-group">
+    <label> First name
+        [text* first-name] </label>
+    <label> Last name
+        [text* last-name] </label>
+    </div>
+    <div class="form-group address-detail">
+    <label> Street Address
+        [text* street-address] </label>
+    <label> City
+        [text* city] </label>
+    <label> Zip Code
+        [text* zip-code] </label>
+    </div>
+    <div class="form-group">
+    <label> Property Type
+        [select* menu-851 "Single Family Residence" "Condominium" "Townhome" "Commercial Building"] </label>
+    <label> Occupied?
+        [radio radio-441 use_label_element default:1 "Yes" "No"] </label>
+    </div>
+    <div class="form-group">
+    <label>Was home built BEFORE 1978?
+        [text home-built] </label>
+    <label>Access
+        [select* menu-851 "Meet Agent/Owner" "One day code" "LBX Combo"] </label>
+    </div>
+    <div class="form-group">
+    <label>Enter Combo Code
+        [text* combo-code] </label>
+    <label>Gate Code
+        [text* gate-code] </label>
+    </div>
+    <div class="form-field">
+    <label>Alarm Code
+        [text* alarm-code] </label>
+    </div>
+    <div class="form-field">
+    <label> Special Instructions
+        [textarea special-instruction] </label>
+    </div>
+    <div class="form-head"><h3>Special Instructions</h3></div>
+    <div class="form-group">
+    <label>First Name
+        [text first-name-instruction] </label>
+    <label>Last Name
+        [text last-name-instruction] </label>
+    </div>
+    <div class="form-group">
+    <label>Company
+        [text company] </label>
+    <label>Phone
+        [tel phone] </label>
+    </div>
+    <div class="form-group">
+    <label>Fax
+        [text fax] </label>
+    <label>Email
+        [email email] </label>
+    </div>
+    <div class="form-input">
+    <label>Notes
+        [textarea notes] </label>
+    </div>
+    <div class="form-head"><h3>Escrow Information</h3></div>
+    <div class="form-group">
+    <label>Escrow Company
+        [text escrow-company] </label>
+    <label>Escrow Officer
+        [text escrow-officer] </label>
+    </div>
+    <div class="form-group">
+    <label>Escrow Phone
+        [tel escrow-phone] </label>
+    <label>Escrow Fax
+        [text escrow-fax] </label>
+    </div>
+    <div class="form-group">
+    <label>Escrow #
+        [text escrow-nbr] </label>
+    <label>Closing Date
+        [date closing-date] </label>
+    </div>
+    <div class="form-input">
+    <label> Escrow Notes
+        [textarea escrow-notes] </label>
+    </div>
+    [submit "Submit"]
