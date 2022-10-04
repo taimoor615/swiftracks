@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // menu toggle
 
 $(document).ready(function(){
@@ -7,4 +8,13 @@ $(document).ready(function(){
     $("#menu-close-button").click(function(){
       $(".main-menu-wrap").slideUp();
     });
+=======
+/*==============================
+        Cursor Behaviour
+================================*/
+document.body.addEventListener('mousemove', function(e){
+    var mX = e.pageX + 'px';
+    var mY = e.pageY + 'px';
+    document.getElementsByClassName('cursor')[0].style.transform = 'translate3d(' + mX + ',' + mY  + ',' +  '0px)';
+>>>>>>> 109b3db726ecc931defa094108d25e5a6bcf9c0b
 });

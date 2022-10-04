@@ -26,7 +26,7 @@
     --off-white: #EEEFEF;
     --dark-grey: #455262;
     --theme-red: #D9412E;
-    --termina-font: "termina", sans-serif;
+    --termina-font:"termina","sans-serif"
 }
 html, body {
     overflow-x: hidden;
@@ -76,7 +76,75 @@ a, a:hover, a:focus {
   -webkit-transition: all ease-in-out .3s;
   -o-transition: all ease-in-out .3s;
 }
-
+input:not(input[type="submit"]){
+    background-color: transparent;
+    border: 1px solid var(--off-white);
+    border-radius: 15px;
+    padding: 22px 16px;
+    font-size: 14px;
+    font-family: var(--termina-font);
+    font-weight: 500;
+    color: var(--off-white);
+    margin-bottom:44px;
+    text-transform: uppercase;
+    width: 100%;
+    outline: unset;
+    line-height: 1;
+} 
+input::placeholder{
+    color: var(--off-white);
+}
+input:focus{
+    background-color: transparent !important;
+    border-color: var(--off-white) !important;
+}
+/*==============================
+        Cursor Behaviour
+================================*/
+.cursor-wrapper{
+    position: relative;
+    top: 100px;
+    width: 700px;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  
+  .cursor{
+    top: 0px;
+    left: 0px;
+    position: fixed;
+  }
+  
+  .dot{
+    top: -20px;
+    left: -20px;
+    position: fixed;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: var(--theme-red);
+    z-index: 9999;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+    will-change: transform;
+    transform: scale(1);
+    transition: 0.2s all;
+  }
+  
+  .drag, .scroll, .hover{
+    width: 200px;
+    height: 200px;
+    color: var(--off-white);
+    font-size: 30px;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+.drag-pointer{
+    transition: 0.2s all;
+    transform: scale(3);
+    border-radius: 0%;
+    background-color: #333898;
+  }
 /* custom classes */
 
 .btn-filled {
@@ -439,7 +507,9 @@ a, a:hover, a:focus {
     padding: 285px 0;
     text-align: center;
 }
-
+.idea-sec-inner{
+    padding: 185px 0;
+}
 .your-idea-inner p {
     font-family:  var(--termina-font);
     color: var(--dark-grey);
@@ -534,8 +604,30 @@ a, a:hover, a:focus {
     opacity: 0.41;
     filter: drop-shadow(7px 9px 8px rgba(0, 0, 0, 0.25));
 }
-
-
+/*=====================================
+            Case Studies
+=======================================*/
+.inner-pages h1{
+    font-size: 70px;
+    color:var(--theme-red);
+    line-height: 85px;
+    font-weight: 500;
+}
+.inner-pages p{
+    font-size: 32px;
+    color:var(--dark-grey);
+    width: 100%;
+    line-height: 43px;
+    margin-top: 30px;
+    max-width: 647px;
+}
+.posts-inner-main{
+    background-color: var(--dark-grey);
+    background-image: url(../images/bg-noise.png);
+    background-repeat: repeat;
+    border-radius: 61px;
+    padding: 141px 147px 117px 174px;
+}
 /* Clients Feedback */
 
 .clients-feedback-inner {
@@ -593,6 +685,99 @@ a, a:hover, a:focus {
     background-repeat: repeat;
     border-radius: 61px;
     padding: 200px 0 120px;
+    padding: 144px 135px 136px 158px;
+}
+.post-deatil-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:127px;
+}
+.posts-inner-main .post-deatil-main:last-child{
+    margin-bottom: 0;
+}    
+.post-content{
+    width: 50%;
+}
+.post-content p{
+    color: var(--off-white);
+    font-size: 24px;
+    margin: 40px 0 44px;
+}
+.post-content a{
+    width: 100%;
+    max-width: 312px;
+    text-align: center;
+    padding: 16px 15px;
+    line-height: 1;
+    padding: 20px 15px;
+}
+.post-img{
+    max-width: 302px;
+    height: 302px;
+    object-fit: cover;
+    position: relative;
+}
+.post-img::after{
+    content: "";
+    background-color: var(--light-black);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0.3;
+    border-radius: 50%;
+}
+.post-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.stay-connected-main{
+    background-color: var(--dark-grey);
+    background-image: url(../images/bg-noise.png);
+    background-repeat: repeat;
+    border-radius: 61px;
+    padding: 105px 147px 136px 174px;
+    margin-bottom:128px;
+    margin-top: 67px;
+}
+.stay-connected-main .head-sec{
+    text-align: center;
+    margin-top: 13px;
+}
+.stay-connected-main .head-sec h2{
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--off-white);
+}
+.stay-connected-main .head-sec h3{
+    font-size: 32px;
+    color: var(--off-white);
+}
+.stay-connected-main .form-main{
+    width: 100%;
+    max-width: 580px;
+    margin: 41px auto 0;
+}
+.stay-connected-main .form-main p{
+    color:var(--off-white);
+    font-size: 24px;
+    margin-bottom: 27px;
+}
+.stay-connected-main .form-main input[type="submit"]{
+    outline: unset !important;
+    display: block;
+    margin: 0 auto;
+    border-color: transparent;
+    width: 100%;
+    max-width:213px;
+    margin-top: 10px;
+    padding: 18px 15px;
+    line-height: 1;
+    /* padding: 200px 200px 120px 200px; */
 }
 
 .featured-blogs-inner h3 {
