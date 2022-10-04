@@ -1,0 +1,377 @@
+@media all and (max-width: 1366px) {
+
+    .featured-blogs-inner {
+        padding: 150px 0 90px;
+    }
+
+    .featured-blogs-inner h3 {
+        padding: 0 150px;
+    }
+    
+    .featured-blogs-list {
+        padding: 0 95px;
+    }
+
+    .footer-inner {
+        grid-template-columns: 1fr 1.5fr;
+    }
+
+}
+
+@media all and (max-width: 1200px) {
+
+    .banner-inner h1 {
+        font-size: 28px;
+    }
+
+    .banner-inner h2 {
+        font-size: 60px;
+    }
+
+    .heading-bold {
+        font-size: 54px;
+    }
+
+    .our-process-hd h3 {
+        font-size: 54px;
+    }
+
+    .our-process-inner-wrap {
+        padding: 122px 117px 136px 124px;
+    }
+
+    .our-process-list-single {
+        grid-template-columns: 70px 158px 199px 1fr;
+    }
+
+    .your-idea-inner p {
+        font-size: 60px;
+        line-height: 74px;
+    }
+
+    .case-studies-inner {
+        grid-template-columns: 1fr;
+        padding: 100px 100px 100px 100px;
+        grid-row-gap: 50px;
+    }
+
+    .case-studies-text {
+        text-align: center;
+    }
+
+    .case-studies-text h3 {
+        margin-bottom: 30px;
+        font-size: 54px;
+    }
+
+    .case-studies-img-wrap::after {
+        bottom: 30px;
+        left: 12px;
+    }
+
+    .case-studies-img-wrap::before {
+        top: -140px;
+        right: -162px;
+    }
+
+    .clients-feedback-inner > h3 {
+        font-size: 54px;
+    }
+
+    .featured-blogs-inner h3 {
+        font-size: 54px;
+        padding: 0 120px;
+        margin-bottom: 30px;
+    }
+
+    .featured-blogs-list {
+        padding: 0 65px;
+    }
+
+    .your-idea-inner {
+        padding: 235px 0;
+    }
+
+    .footer-inner {
+        grid-template-columns: 280px 1fr;
+        grid-column-gap: 30px;
+    }
+
+}
+
+@media all and (max-width: 992px) {
+
+    .book-btn-wrap {
+        display: none;
+    }
+
+    .side-menu-wrap span {
+        display: none;
+    }
+
+    .banner-inner {
+        text-align: center;
+    }
+
+    .banner-inner-btn {
+        display: block;
+    }
+
+    .banner-inner h1 {
+        font-size: 22px;
+    }
+
+    .banner-inner h2 {
+        font-size: 42px;
+        line-height: 52px;
+        margin-bottom: 20px;
+    }
+
+    .services-list {
+        grid-template-columns: 1fr;
+        grid-column-gap: 0;
+        grid-row-gap: 30px;
+    }
+
+    .services-list-btn {
+        display: block;
+    }
+
+    .our-process-hd {
+        text-align: center;
+    }
+
+    .our-process-list-wrap > h3 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .our-process-list-single {
+        grid-template-columns: 1fr;
+        text-align: center;
+        justify-items: center;
+        padding: 30px 0;
+    }
+
+    .our-process-list-single img {
+        margin-bottom: 12px;
+    }
+
+    .our-process-list-single h4 {
+        margin-bottom: 12px;
+    }
+
+    .our-process-list-single:not(:first-of-type) {
+        border-top: none;
+    }
+
+    .your-idea-inner {
+        padding: 150px 0;
+    }
+
+    .clients-feedback-single {
+        grid-template-columns: 1fr;
+        grid-column-gap: 0;
+        grid-row-gap: 13px;
+    }
+
+    .client-text::before {
+        width: 38px;
+        height: 29px;
+        top: 4px;
+        left: -50px;
+    }
+
+    .clients-feedback .clients-feedback-single:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .featured-blogs-inner {
+        padding: 100px 0 80px;
+    }
+
+    .featured-blogs-inner h3 {
+        padding: 0px 90px;
+    }
+
+    .featured-blogs-list {
+        padding: 0 35px;
+    }
+
+    .featured-blogs-list {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        grid-row-gap: 13px;
+    }
+
+    .footer-inner {
+        grid-template-columns: 1fr;
+        grid-column-gap: 0;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+
+    .footer-logo img {
+        max-width: 50%;
+        width: 100%;
+    }
+
+    .book-call-btn {
+        display: block;
+    }
+
+    .pages-links ul a.btn-outline {
+        display: none;
+    }
+
+    .pages-links ul, .quick-links ul, .social-links ul {
+        justify-content: center;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-links {
+        order: 1;
+        margin-bottom: 36px;
+    }
+
+    .pages-links {
+        order: 2;
+        margin-bottom: 23px;
+    }
+
+    .quick-links {
+        order: 3;
+        margin-bottom: 0;
+    }
+
+    .quick-links ul a {
+        text-align: center;
+    }
+
+    .footer-logo a {
+        margin-bottom: 15px;
+    }
+
+    .pages-links ul li:not(:last-child) {
+        margin-right: 32px;
+    }
+
+    .pages-links ul li {
+        text-align: center;
+    }
+
+    .quick-links ul li:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .quick-links ul li {
+        text-align: center;
+    }
+
+    .menu-links ul li:not(:last-child) a {
+        margin-bottom: 18px;
+    }
+
+    .menu-links a {
+        font-size: 32px;
+    }
+
+    .menu-social {
+        max-width: 100%;
+        position: unset;
+        padding-bottom: 30px;
+    }
+
+    .menu-social ul {
+        align-items: flex-start;
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .menu-links {
+        padding: 40px 0 26px;
+    }
+
+    .menu-social li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 26px;
+    }
+
+    .main-menu-inner {
+        padding: 0 60px;
+    }
+
+    .heading-bold {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .our-services-inner > p {
+        font-size: 26px;
+        margin-top: 24px;
+    }
+
+    .service-single p {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .our-process-hd h3 {
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 24px;
+    }
+
+    .our-process-hd {
+        margin: 0 auto 80px;
+    }
+
+    .our-process-note p {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .your-idea-inner p {
+        font-size: 48px;
+        line-height: 58px;
+        text-align: left;
+    }
+
+    .case-studies-text br {
+        display: none;
+    }
+
+    .case-studies-text h3 {
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .case-studies-text h4 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .clients-feedback-inner {
+        padding: 80px 0;
+    }
+
+    .clients-feedback-inner > h3 {
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 28px;
+    }
+
+    .featured-blogs-inner h3 {
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+
+}
