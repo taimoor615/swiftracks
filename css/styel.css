@@ -27,7 +27,6 @@
     --dark-grey: #455262;
     --theme-red: #D9412E;
     --termina-font:"termina","sans-serif"
-    --termina-font: "termina", sans-serif;
 }
 html, body {
     overflow-x: hidden;
@@ -614,6 +613,12 @@ input:focus{
     max-width: 647px;
 }
 .posts-inner-main{
+    background-color: var(--dark-grey);
+    background-image: url(../images/bg-noise.png);
+    background-repeat: repeat;
+    border-radius: 61px;
+    padding: 141px 147px 117px 174px;
+}
 /* Clients Feedback */
 
 .clients-feedback-inner {
@@ -730,6 +735,7 @@ input:focus{
 }
 .stay-connected-main .head-sec{
     text-align: center;
+    margin-top: 13px;
 }
 .stay-connected-main .head-sec h2{
     font-size: 64px;
@@ -744,12 +750,12 @@ input:focus{
 .stay-connected-main .form-main{
     width: 100%;
     max-width: 580px;
-    margin: 44px auto 0;
+    margin: 41px auto 0;
 }
 .stay-connected-main .form-main p{
     color:var(--off-white);
     font-size: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 27px;
 }
 .stay-connected-main .form-main input[type="submit"]{
     outline: unset !important;
@@ -761,7 +767,7 @@ input:focus{
     margin-top: 10px;
     padding: 18px 15px;
     line-height: 1;
-    padding: 200px 200px 120px 200px;
+    /* padding: 200px 200px 120px 200px; */
 }
 
 .featured-blogs-inner h3 {
