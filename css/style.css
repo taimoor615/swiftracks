@@ -1262,4 +1262,5 @@ header {
     color: var(--off-white);
     line-height: 77px;
     letter-spacing: 0.07em;
+    margin: 0;
 }
