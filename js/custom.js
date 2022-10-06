@@ -1,6 +1,4 @@
-
 // menu toggle
-
 $(document).ready(function(){
     $("#menu-toggle-button").click(function(){
       $(".main-menu-wrap").slideDown(200);
