@@ -1,12 +1,12 @@
 // menu toggle
 $(document).ready(function(){
     $("#menu-toggle-button").click(function(){
-      $(".main-menu-wrap").slideDown();
+      $(".main-menu-wrap").slideDown(200);
     });
     $("#menu-close-button").click(function(){
-      $(".main-menu-wrap").slideUp();
+      $(".main-menu-wrap").slideUp(300);
     });
-});
+  });
 /*==============================
         Cursor Behaviour
 ================================*/

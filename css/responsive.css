@@ -57,6 +57,8 @@
 
     .case-studies-text {
         text-align: center;
+        position: relative;
+        z-index: 1;
     }
 
     .case-studies-text h3 {
@@ -95,6 +97,10 @@
     .footer-inner {
         grid-template-columns: 280px 1fr;
         grid-column-gap: 30px;
+    }
+
+    .case-studies-text p {
+        padding-right: 0;
     }
 
 }
@@ -373,5 +379,549 @@
         line-height: 50px;
         margin-bottom: 10px;
     }
+
+    .menu-links a:hover img, .menu-links a.active img {
+        margin: -7px 0 2px 16px;
+        max-width: 30px;
+    }
+
+    .your-idea-wrap::before {
+        width: 580px;
+        height: 573px;
+        left: -234px;
+        top: -69px;
+    }
+
+    .your-idea-wrap::after {
+        top: -10px;
+    }
+
+    .case-studies-img-wrap::before {
+        right: -212px;
+        width: 450px;
+        height: 445px;
+    }
+
+    .case-studies-img-wrap::after {
+        bottom: -20px;
+        left: -148px;
+    }
+
+    .banner-inner.about-pg h2 {
+        font-size: 36px;
+        line-height: 52px;
+        max-width: 100%;
+    }
+
+    .our-team-inner h2 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    
+    .our-team {
+        margin-top: 60px;
+    }
+
+}
+
+@media all and (max-width: 768px) {
+
+    .our-process-inner-wrap {
+        padding: 80px 40px 80px 40px;
+    }
+
+    .case-studies-inner {
+        padding: 80px 40px 80px 40px;
+    }
+
+    .case-studies-btns .btn-filled {
+        margin-right: 0;
+        padding: 15px 71px 10px;
+        margin-bottom: 23px;
+        font-size: 12px;
+    }
+
+    .case-studies-btns .btn-outline {
+        padding: 13px 22px 8px 27px;
+        font-size: 12px;
+    }
+
+    .banner-inner-btn .btn-filled {
+        padding: 13px 26px 12px 27px;
+        font-size: 12px;
+    }
+
+    .services-list-btn .btn-filled {
+        padding: 14px 26px 11px 26px;
+        font-size: 12px;
+    }
+
+    .our-process-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .our-process-btns .btn-filled {
+        margin-right: 0;
+        margin-bottom: 23px;
+        padding: 14px 28px 11px 29px;
+        font-size: 12px;
+    }
+
+    .our-process-btns .btn-outline {
+        padding: 12px 19px 9px 23px;
+        font-size: 12px;
+    }
+
+    .book-call-btn .btn-outline {
+        font-size: 12px;
+        padding: 13px 22px 9px 27px;
+    }
+
+    .case-studies-img {
+        max-width: 305px;
+        height: 308px;
+    }
+
+    .featured-blogs-inner {
+        padding: 80px 0 80px;
+    }
+
+    .featured-blogs-inner h3 {
+        padding: 0px 60px;
+    }
+
+    .featured-blogs-list {
+        padding: 0 15px;
+    }
+
+    .featured-blog-single {
+        padding: 27px 37px;
+    }
+
+    .logo-side img {
+        max-width: 198px;
+        width: 100%;
+    }
+
+    .banner-wrap {
+        padding: 150px 0 275px;
+        margin: 0;
+    }
+
+    .banner-inner img.bg-circle-lg {
+        top: 200px;
+        right: 0px;
+    }
+
+    .banner-inner img.bg-circle-sm {
+        top: 350px;
+    }
+
+    .banner-wrap.about-pg {
+        padding: 0;
+    }
+
+    .banner-inner.about-pg h2 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+}
+
+@media all and (max-width: 575px) {
+
+    .main-menu {
+        padding-top: 35px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .side-menu-wrap > a img {
+        max-width: 19px;
+    }
+
+    .main-menu-inner {
+        padding: 0 30px;
+    }
+
+    .menu-head {
+        padding: 30px 0;
+    }
+
+    .menu-toggle-btn img {
+        max-width: 20px;
+    }
+
+    .menu-links ul li:not(:last-child) a {
+        margin-bottom: 14px;
+    }
+
+    .menu-links a {
+        font-size: 24px;
+    }
+
+    .banner-wrap {
+        padding: 125px 0 275px;
+    }
+
+    .banner-inner h1 {
+        font-size: 14px;
+        margin-bottom: 17px;
+    }
+
+    .banner-inner h2 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .banner-inner img.bg-circle-sm {
+        top: 285px;
+        right: -48px;
+        width: 142px;
+        height: 139px;
+    }
+
+    .banner-inner img.bg-circle-lg {
+        top: 170px;
+        right: -65px;
+        width: 520px;
+        height: 511px;
+    }
+
+    .heading-bold {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .our-services-inner > p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .our-services-inner {
+        padding: 0 18px;
+    }
+
+    .services-list {
+        margin-top: 28px;
+        grid-row-gap: 20px;
+    }
+
+    .service-single h4 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+
+    .service-single p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .service-single {
+        padding: 30px 30px 30px;
+        border-radius: 20px;
+    }
+
+    .our-services-wrap {
+        margin: 0 0 80px;
+    }
+
+    .our-process-inner-wrap {
+        padding: 54px 24px 60px;
+        border-radius: 30px;
+    }
+
+    .our-process-hd h3 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .our-process-hd p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .our-process-hd p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+
+    .our-process-wrap {
+        padding: 0 8px;
+    }
+
+    .our-process-hd {
+        margin: 0 auto 45px;
+    }
+
+    .our-process-list-wrap > h3 {
+        font-size: 16px;
+        line-height: 19.2px;
+        margin: 0 auto 15px;
+    }
+
+    .our-process-list-single {
+        padding: 14px 0;
+    }
+    .our-process-list-single span {
+        font-size: 16px;
+        line-height: 19.2px;
+        margin-bottom: -8px;
+    }
+
+    .our-process-list-single:nth-of-type(1) img {
+        margin-bottom: -1px;
+    }
+
+    .our-process-list-single:nth-of-type(2) span {
+        margin-bottom: -30px;
+    }
+    
+    .our-process-list-single:nth-of-type(2) img {
+        margin-bottom: -6px;
+    }
+
+    .our-process-list-single:nth-of-type(3) img {
+        margin-bottom: 0px;
+    }
+    
+    .our-process-list-single:nth-of-type(4) img {
+        margin-bottom: -13px;
+    }
+    
+    .our-process-list-single:nth-of-type(5) img {
+        margin-bottom: 5px;
+    }
+
+    .our-process-list-single h4 {
+        font-size: 16px;
+        line-height: 19.2px;
+        text-align: center;
+    }
+
+    .our-process-list-single h4 br {
+        display: none;
+    }
+
+    .our-process-list-single p {
+        font-size: 14px;
+        line-height: 19.12px;
+        padding: 0 42px;
+    }
+
+    .our-process-note p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .your-idea-inner p {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .your-idea-inner p br {
+        display: none;
+    }
+
+    .your-idea-inner {
+        padding: 97px 108px 97px 38px;
+    }
+
+    .your-idea-wrap::before {
+        width: 322px;
+        height: 324px;
+        left: -80px;
+        top: -17px;
+    }
+
+    .your-idea-wrap::after {
+        width: 211px;
+        height: 207px;
+        right: -110px;
+    }
+
+    .case-studies-inner {
+        padding: 53px 30px;
+        border-radius: 30px;
+    }
+
+    .case-studies-wrap {
+        padding: 0 8px;
+    }
+
+    .case-studies-text h3 {
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+    }
+
+    .case-studies-text h4 {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+
+    .case-studies-text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .case-studies-btns {
+        margin-top: 24px;
+    }
+
+    .btn-filled, .btn-outline {
+        border-radius: 10px;
+    }
+
+    .case-studies-img {
+        max-width: 235px;
+        height: 235px;
+    }
+
+    .clients-feedback-inner > h3 {
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 28px;
+        padding-left: 59px;
+    }
+
+    .client-text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .clients-feedback-single {
+        padding: 0px 52px;
+    }
+
+    .client-logo img {
+        max-width: 100%;
+    }
+
+    .clients-feedback-single:nth-of-type(2) .client-logo img {
+        max-width: 115px;
+    }
+
+    .featured-blogs-inner {
+        padding: 54px 0;
+        border-radius: 30px;
+    }
+
+    .featured-blogs-list {
+        padding: 0 8px;
+        grid-row-gap: 8px;
+    }
+
+    .featured-blog-single {
+        padding: 19px;
+    }
+
+    .featured-blogs-inner h3 {
+        padding: 0 27px;
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 0;
+    }
+
+    .featured-blog-single > span {
+        font-size: 16px;
+        line-height: 19.2px;
+        margin-bottom: 5px;
+    }
+
+    .featured-blog-single h5 {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 8px;
+    }
+
+    .date-time-wrap span {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .date-time-wrap span:not(:last-child) {
+        margin-right: 32px;
+    }
+
+    footer {
+        margin-top: 86px;
+    }
+
+    .pages-links ul li {
+        margin-right: 0px;
+        margin-left: 32px;
+    }
+
+    .pages-links ul li:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .footer-logo p {
+        font-size: 12px;
+    }
+
+    .quick-links ul a {
+        font-size: 12px;
+        line-height: 14.4px;
+    }
+
+    .quick-links ul li:not(:last-child) {
+        margin-right: 0px;
+    }
+
+    .footer-logo a {
+        margin-bottom: 12px;
+    }
+
+    .pages-links ul a {
+        font-size: 13px;
+    }
+
+    .about-us-inner p:not(:last-child) {
+        margin-bottom: 22px;
+    }
+
+    .about-us-inner p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .our-team-inner {
+        border-radius: 30px;
+        padding: 54px 24px 60px;
+    }
+
+    .our-team-inner h2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .team-member-single img {
+        margin-bottom: 30px;
+    }
+
+    .team-member-single h4 {
+        font-size: 22px;
+    }
+
+    .team-member-single p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .about-us-inner {
+        padding: 45px 18px 82px;
+    }
+
+    .our-team-wrap {
+        padding: 0 12px;
+    }
+
 
 }
