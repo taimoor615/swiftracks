@@ -103,6 +103,33 @@
         padding-right: 0;
     }
 
+    .contact-social-wrap::after {
+        display: none;
+    }
+
+    .banner-inner.contact h1 {
+        font-size: 54px;
+    }
+
+    .contact-address-wrap {
+        grid-template-columns: 1fr;
+        margin-top: 36px;
+        grid-column-gap: 50px;
+        padding: 0;
+    }
+
+    .contact-email {
+        margin-bottom: 50px;
+    }
+
+    .contact-social {
+        margin-bottom: 50px;
+    }
+
+    .banner-inner.contact {
+        padding: 100px 80px 100px;
+    }
+
 }
 
 @media all and (max-width: 992px) {

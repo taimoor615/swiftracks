@@ -1653,6 +1653,10 @@ header {
 
 /* CONTACT PAGE */
 
+.banner-wrap.contact-pg {
+    margin: 96px 0 123px;
+}
+
 .banner-inner.contact {
     background-color: var(--dark-grey);
     background-image: url(../images/bg-noise.png);
@@ -1669,4 +1673,326 @@ header {
     line-height: 77px;
     letter-spacing: 0.07em;
     margin: 0;
+}
+
+.contact-address-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 36px;
+    padding: 0 40px 0 40px;
+    grid-column-gap: 94px;
+}
+
+.contact-email {
+    display: grid;
+    grid-template-columns: 22px 1fr;
+    grid-column-gap: 18px;
+    margin-bottom: 100px;
+}
+
+.email-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-social {
+    display: grid;
+    grid-template-columns: 22px 1fr;
+    grid-column-gap: 18px;
+}
+
+.social-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-text ul {
+    display: flex;
+    align-items: center;
+}
+
+.contact-location-wrap {
+    display: grid;
+    grid-template-columns: 22px 1fr;
+    grid-column-gap: 18px;
+}
+
+.email-text span, .social-text span, .location-text span {
+    font-family: 'avenir-black';
+    font-size: 24px;
+    line-height: 33px;
+    color: var(--light-blue);
+    text-transform: uppercase;
+}
+
+.email-text a {
+    font-family: 'avenir-roman';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--off-white);
+    position: relative;
+    max-width: max-content;
+}
+
+.email-text a::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: var(--off-white);
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+}
+
+.email-text span {
+    margin-bottom: 9px;
+}
+
+.social-text li:not(:last-child) {
+    margin-right: 59px;
+}
+
+.social-text span {
+    margin-bottom: 19px;
+}
+
+.location-text span {
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.location-text p {
+    font-family: 'avenir-roman';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--off-white);
+}
+
+.directions-btn {
+    margin-top: 32px;
+}
+
+.contact-social-wrap {
+    position: relative;
+}
+
+.contact-social-wrap::after {
+    content: '';
+    width: 1px;
+    height: 382px;
+    background: var(--off-white);
+    position: absolute;
+    top: -52px;
+    right: 3px;
+    opacity: 0.25;
+}
+
+.contact-form-inner > p {
+    font-family: 'avenir-roman';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: var(--dark-grey);
+    margin-bottom: 50px;
+}
+
+.contact-form-inner > h2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: var(--theme-red);
+    line-height: 77px;
+    letter-spacing: 0.07em;
+    margin: 0;
+}
+
+.contact-form {
+    margin-top: 46px;
+}
+
+.input-fields-wrap {
+    display: flex;
+    column-gap: 96px;
+}
+
+.input-field {
+    width: 100%;
+}
+
+.input-field select {
+    width: 100%;
+    height: 68px;
+    border-radius: 15px;
+    -webkit-appearance: none;
+}
+
+.input-field textarea {
+    width: 100%;
+    width: 100%;
+    border-radius: 15px;
+    resize: none;
+}
+
+.input-field input, .input-field select, .input-field textarea {
+    font-family: var(--termina-font);
+    font-weight: 600 !important;
+    font-size: 14px;
+    padding: 22px 38px !important;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    color: var(--dark-grey);
+    background-color: var(--off-white);
+    text-transform: uppercase;
+    border-color: var(--dark-grey) !important;
+    margin: 0 !important;
+}
+
+.contact-form label {
+    font-family: 'avenir-black';
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: var(--dark-grey);
+    margin-bottom: 9px;
+    text-transform: uppercase;
+}
+
+.contact-form .form-control:focus, .contact-form select:focus {
+    color: var(--dark-grey);
+    background-color: var(--off-white);
+    border-color: var(--dark-grey);
+    outline: 0;
+    box-shadow: none;
+}
+
+.cus-dd-icon {
+    position: relative;
+}
+
+.cus-dd-icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 70px;
+    width: 1px;
+    height: 68px;
+    background: var(--dark-grey);
+}
+
+.cus-dd-icon::after {
+    content: '';
+    background-image: url(../images/chevron.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 41%;
+    width: 30px;
+    height: 15px;
+    right: 20px;
+}
+
+.mb-62 {
+    margin-bottom: 62px;
+}
+
+.mb-68 {
+    margin-bottom: 68px;
+}
+
+.nda-checkbox-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.nda-checkbox-wrap p {
+    font-family: 'avenir-black';
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: var(--dark-grey);
+    text-transform: uppercase;
+    margin-right: 44px;
+}
+
+.nda-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.nda-checkbox .form-checkbox {
+    display: flex;
+    align-items: center;
+    margin-right: 26px;
+}
+
+.nda-checkbox-wrap .form-check-input {
+    width: 61px;
+    height: 53px;
+    border-radius: 15px;
+    border-color: var(--dark-grey);
+    margin: 0;
+    padding: 10px;
+}
+
+.nda-checkbox-wrap .form-check-input:focus {
+    border-color: var(--dark-grey) !important;
+    box-shadow: none;
+}
+
+.nda-checkbox-wrap .form-check-input:checked {
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.form-check-input:checked[type=radio] {
+    background-image: url(../images/checkbox-check.svg);
+    background-size: 28px 32px;
+}
+
+.nda-checkbox-wrap label {
+    margin: 0 15px 0 0;
+}
+
+.form-submit-btn {
+    margin-top: 68px;
+}
+
+.form-submit-btn input[type="submit"] {
+    font-family: var(--termina-font);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: var(--light-black);
+    padding: 20px 38px 15px 39px;
+    border-radius: 15px;
+    background-color: var(--light-blue);
+    border: none;
+    transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -webkit-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+}
+
+.form-submit-btn input[type="submit"]:hover {
+    background-color: var(--dark-navy);
+    color: var(--off-white);
+}
+
+.recaptcha-wrap {
+    margin-top: 21px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
