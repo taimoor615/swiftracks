@@ -1222,6 +1222,10 @@ input:focus{
     color: var(--dark-grey);
     margin-bottom: 12px;
     font-weight: 600;
+    transition: .3s;
+}
+.post-head-part a:hover h3{
+    color: var(--theme-red);
 }
 .post-head-part span{
     font-size: 16px;
@@ -1390,7 +1394,9 @@ footer {
     color: var(--dark-grey);
     text-transform: uppercase;
 }
-
+.quick-links ul a:hover{
+    color: var(--theme-red);
+}
 /* Main Menu */
 
 header {
