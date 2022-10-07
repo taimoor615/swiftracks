@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="https://use.typekit.net/hbm8yzq.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Case Studies</title>
 </head>
-<body>
+<body >
     <!-- header -->
     <header>
         <nav>
@@ -25,45 +26,50 @@
                             <a class="btn-filled"  href="">BOOK A CALL</a>
                         </div>
                         <div class="side-menu-wrap">
-                            <a href="">MENU <img src="images/hamburger-menu.svg" alt="menu button"></a>
+                            <a id="menu-toggle-button" href="javascript:void(0)"><span>MENU</span> <img src="images/hamburger-menu.svg" alt="menu button"></a>
                         </div>
                     </div>
-                    <div class="main-menu-wrap d-none">
-                        <div class="main-menu-inner">
-                            <div class="menu-head">
-                                <div class="menu-logo">
-                                    <a href=""><img src="images/SR-primary-white.png" alt="brand logo"></a>
-                                </div>
-                                <div class="menu-toggle-btn">
-                                    <a href=""><img src="images/menu-btn.svg" alt="menu toggle button"></a>
-                                </div>
-                            </div>
-                            <div class="menu-links">
-                                <ul>
-                                    <li><a href="">Services <img src="images/menu-arrow-white.svg" alt="right arrow"></a></li>
-                                    <li><a class="active" href="">Case studies <img src="images/menu-arrow-white.svg" alt="right arrow"></a></li>
-                                    <li><a href="">Contact <img src="images/menu-arrow-white.svg" alt="right arrow"></a></li>
-                                    <li><a href="">about <img src="images/menu-arrow-white.svg" alt="right arrow"></a></li>
-                                    <li><a href="">blog <img src="images/menu-arrow-white.svg" alt="right arrow"></a></li>
-                                </ul>
-                            </div>
-                            <div class="menu-social d-none">
-                                <ul>
-                                    <li><a href="">FACEBOOK</a></li>
-                                    <li><a href="">LINKEDIN</a></li>
-                                    <li><a href="">TWITTER</a></li>
-                                    <li><a href="">INSTAGRAM</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </nav>
+        <div class="main-menu-wrap">
+            <div class="main-menu-outer">
+                <div class="main-menu-inner">
+                    <div class="menu-head">
+                        <div class="menu-logo">
+                            <a href=""><img src="images/SR-primary-white.png" alt="brand logo"></a>
+                        </div>
+                        <div class="menu-toggle-btn">
+                            <a id="menu-close-button" href="javascript:void(0)"><img src="images/menu-btn.svg" alt="menu toggle button"></a>
+                        </div>
+                    </div>
+                    <div class="menu-links">
+                        <ul>
+                            <li><a href="">Services <img src="images/menu-arrow-white.svg" alt="right arrow"></a></li>
+                            <li><a class="" href="">Case studies <img src="images/menu-arrow-white.svg" alt="right arrow"></a></li>
+                            <li><a href="">Contact <img src="images/menu-arrow-white.svg" alt="right arrow"></a></li>
+                            <li><a href="">about <img src="images/menu-arrow-white.svg" alt="right arrow"></a></li>
+                            <li><a href="">blog <img src="images/menu-arrow-white.svg" alt="right arrow"></a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-social">
+                        <ul>
+                            <li><a href="">FACEBOOK</a></li>
+                            <li><a href="">LINKEDIN</a></li>
+                            <li><a href="">TWITTER</a></li>
+                            <li><a href="">INSTAGRAM</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
+
+
     <main>
         <!-- banner -->
-        <section class="banner-wrap inner-pages">
+        <section class="banner-wrap inner-pages case-template">
             <div class="container">
                 <div class="banner-inner">
                     <h1>Technology solutions changing the world</h1>
@@ -143,40 +149,48 @@
         </section>
     </main>
       <!-- footer -->
-      <footer>
-        <div class="container">
-            <div class="footer-inner">
-                <div class="footer-logo">
-                    <a href=""><img src="images/footer-logo.png" alt="footer logo"></a>
-                    <p>©2022 - Swift Racks Inc. <br><span>All Rights Reserved</span></p>
-                </div>
-                <div class="footer-links">
-                    <div class="pages-links">
-                        <ul>
-                            <li><a href="">CONTACT</a></li>
-                            <li><a href="">SITE MAP</a></li>
-                            <li><a href="">BLOG</a></li>
-                            <li><a class="btn-outline" href="">BOOK A CALL <img src="images/arrow-button-hover-blue.svg" alt="link arrow"></a></li>
-                        </ul>
+        <footer>
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="footer-logo">
+                        <a href=""><img src="images/footer-logo.png" alt="footer logo"></a>
+                        <p>©2022 - Swift Racks Inc. <br><span>All Rights Reserved</span></p>
+                        <div class="book-call-btn">
+                            <a class="btn-outline" href="">BOOK A CALL</a>
+                        </div>
                     </div>
-                    <div class="quick-links">
-                        <ul>
-                            <li><a href="">PRIVACY POLICY</a></li>
-                            <li><a href="">TERMS OF SERVICE</a></li>
-                            <li><a href="">DMCA & ABUSE</a></li>
-                        </ul>
-                    </div>
-                    <div class="social-links">
-                        <ul>
-                            <li><a href=""><img src="images/fb-icon.svg" alt="facebook icon"></a></li>
-                            <li><a href=""><img src="images/linkedin-icon.svg" alt="linkedin icon"></a></li>
-                            <li><a href=""><img src="images/twitter-icon.svg" alt="twitter icon"></a></li>
-                            <li><a href=""><img src="images/instagram-icon.svg" alt="instagram icon"></a></li>
-                        </ul>
+                    <div class="footer-links">
+                        <div class="pages-links">
+                            <ul>
+                                <li><a href="">CONTACT</a></li>
+                                <li><a href="">SITE MAP</a></li>
+                                <li><a href="">BLOG</a></li>
+                                <li><a class="btn-outline" href="">BOOK A CALL <img src="images/arrow-button-hover-blue.svg" alt="link arrow"></a></li>
+                            </ul>
+                        </div>
+                        <div class="quick-links">
+                            <ul>
+                                <li><a href="">PRIVACY POLICY</a></li>
+                                <li><a href="">TERMS OF SERVICE</a></li>
+                                <li><a href="">DMCA & ABUSE</a></li>
+                            </ul>
+                        </div>
+                        <div class="social-links">
+                            <ul>
+                                <li><a href=""><img src="images/fb-icon.svg" alt="facebook icon"></a></li>
+                                <li><a href=""><img src="images/linkedin-icon.svg" alt="linkedin icon"></a></li>
+                                <li><a href=""><img src="images/twitter-icon.svg" alt="twitter icon"></a></li>
+                                <li><a href=""><img src="images/instagram-icon.svg" alt="instagram icon"></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
-</body>
+        </footer>
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+
 </html>
