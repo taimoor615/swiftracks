@@ -1985,6 +1985,19 @@ header {
     margin-top: 21px;
 }
 
+.recaptcha-wrap p {
+    font-family: 'avenir-roman';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #36382F;
+}
+
+.recaptcha-wrap p a {
+    font-weight: 800;
+    color: #36382F;
+}
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -1995,4 +2008,221 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+/* BLOG DETAIL */
+
+
+.blog-featured-wrap {
+    position: relative;
+    height: 839px;
+}
+
+.blog-featured {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: #455262;
+}
+
+.blog-featured img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    mix-blend-mode: multiply;
+    opacity: 0.7;
+    filter: blur(5.5px);
+}
+
+header.blog-detail .banner-wrap {
+    margin: 0;
+    padding: 171px 0 315px;
+}
+
+header.blog-detail .banner-inner h2 {
+    font-size: 70px;
+    color: var(--off-white);
+    font-weight: 400;
+    line-height: 84px;
+    max-width: 970px;
+}
+
+header.blog-detail .side-menu-wrap > a {
+    color: var(--off-white);
+}
+
+header.blog-detail .date-time-wrap {
+    margin-top: 20px;
+}
+
+header.blog-detail .date-time-wrap span {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+header.blog-detail .date-time-wrap span:not(:last-child) {
+    margin-right: 75px;
+}
+
+/* blog mian text */
+
+.blog-main-text-inner {
+    padding: 109px 0 114px;
+    max-width: 952px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.blog-main-text-inner p {
+    font-family: 'avenir-roman';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--dark-grey);
+}
+
+.blog-main-text-inner p:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.blog-note {
+    background-color: var(--dark-grey);
+    background-image: url(../images/bg-noise.png);
+    background-repeat: repeat;
+    border-radius: 61px;
+    padding: 116px 223px 118px 213px;
+}
+
+.blog-note p {
+    font-family: 'avenir-roman';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--off-white);
+}
+
+.blog-note p span {
+    font-weight: 800;
+}
+
+/* blog sections */
+
+.blog-sections-wrap {
+    padding-top: 111px;
+}
+
+.blog-section-single h2 {
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--theme-red);
+    line-height: 77px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+}
+
+.blog-section-single h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--dark-grey);
+    margin-bottom: 42px;
+}
+
+.blog-section-single p {
+    font-family: 'avenir-roman';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--dark-grey);
+}
+
+.blog-section-single > p {
+    margin-bottom: 40px;
+}
+
+.blog-section-single img {
+    max-width: 100%;
+}
+
+.blog-single-bottom-text {
+    margin-top: 34px;
+}
+
+.blog-section-single h4 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--theme-red);
+    margin-bottom: 24px;
+}
+
+.blog-section-single {
+    max-width: 952px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.blog-section-single:not(:last-of-type) {
+    margin-bottom: 110px;
+}
+
+/* blog text section */
+
+.blog-text-sec-wrap {
+    margin-top: 128px;
+}
+
+.blog-text-sec-inner {
+    background-color: var(--dark-grey);
+    background-image: url(../images/bg-noise.png);
+    background-repeat: repeat;
+    border-radius: 61px;
+    padding: 115px 213px;
+}
+
+.blog-text-sec {
+    max-width: 769px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.blog-text-sec h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--off-white);
+    margin-bottom: 46px;
+}
+
+.blog-text-sec p {
+    font-family: 'avenir-roman';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--off-white);
+}
+
+.blog-text-sec > p {
+    margin-bottom: 54px;
+}
+
+.blog-text-sec h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--off-white);
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.blog-text-sec-single p:not(:last-child) {
+    margin-bottom: 36px;
+}
+
+.blog-text-sec-single:not(:last-of-type) {
+    margin-bottom: 16px;
 }
