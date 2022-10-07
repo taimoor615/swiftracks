@@ -107,6 +107,7 @@ input:focus{
     top: 100px;
     width: 700px;
     height: 100vh;
+    cursor: none;
     margin: 0 auto;
   }
   
@@ -130,8 +131,13 @@ input:focus{
     will-change: transform;
     transform: scale(1);
     transition: 0.2s all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  
+  .dot img{
+        max-width: 50%;
+    }
   .drag, .scroll, .hover{
     width: 200px;
     height: 200px;
